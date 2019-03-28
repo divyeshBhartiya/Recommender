@@ -1,0 +1,16 @@
+@import '~bootstrap\dist\css\bootstrap.min.css';
+.jumbotron {
+    background-image: url("assets/images/backgroundImage2.jpg");
+    background-position: center;
+    background-size: 100%;
+    border-radius: 0px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.row {
+    margin-bottom: 30px;
+}
+
+.row .col-sm-4 {
+    margin-bottom: 20px;
+}

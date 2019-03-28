@@ -1,0 +1,23 @@
+<div class="jumbotron text-center">
+  <h1 style="color:white;">Be a Food Reviewer</h1>
+  <p style="font-size:1vw; color:white;">Registration Page</p>
+</div>
+
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12">
+    <h3>Create User</h3>
+      <form action="/action_page.php">
+        <div class="form-group">
+          <label for="email">Email address:</label>
+          <input type="email" #email class="form-control" placeholder="email" id="email">
+        </div>
+        <div class="form-group">
+          <label for="pwd">Password:</label>
+          <input type="password" #password class="form-control" placeholder="password" id="pwd">
+        </div>
+        <button routerLink="/" type="submit" (click)="signup(email.value, password.value)" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+  </div>
+</div>
