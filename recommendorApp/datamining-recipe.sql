@@ -12,7 +12,7 @@
 
 LOCK TABLES `recipe` WRITE;
 /*!40000 ALTER TABLE `recipe` DISABLE KEYS */;
-INSERT INTO `recipe` VALUES (1,'Recipe 1'),(2,'Recipe 2'),(3,'Recipe 3'),(4,'Recipe 4'),(5,'Recipe 5'),(6,'Recipe 6'),(7,'Recipe 7'),(8,'Recipe 8'),(9,'Recipe 9');
+INSERT INTO `recipe` VALUES (1,'Paneer Butter Masala'),(2,'Kadhai Paneer'),(3,'Dum Aloo'),(4,'Dal Tadka'),(5,'Kaju Masala'),(6,'Veg Kofta'),(7,'Sev Tomato'),(8,'Matar Paneer'),(9,'Aloo Gobhi Matar');
 /*!40000 ALTER TABLE `recipe` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
